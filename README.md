@@ -26,6 +26,7 @@ python KmerCatcher.py -k_len 12 -db illumina_adapters.fa -i query.fa -o out.fa -
 ```
 
 options:
+
 `-k_len`  :  length (nt) of k-mer used for matching (default = 12)
 
 `-db`  :  input "database" `.fasta` file
