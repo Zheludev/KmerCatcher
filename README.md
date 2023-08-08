@@ -4,6 +4,12 @@ A simple python script that counts k-mer matches between reference database and 
 
 =================================================
 
+## dependencies
+
+`KmerCatcher` requires [tqdm](https://github.com/tqdm/tqdm)
+
+=================================================
+
 ## overview
 
 Given two input `.fasta` files, a "database" and a "query", `KmerCatcher` will rapidly look for any perfect k-mer matches between the "database" and the "query".
