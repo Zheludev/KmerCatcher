@@ -6,7 +6,7 @@ A simple python script that counts k-mer matches between reference database and 
 
 ## dependencies
 
-`KmerCatcher` requires [tqdm](https://github.com/tqdm/tqdm)
+`KmerCatcher` requires [`tqdm`](https://github.com/tqdm/tqdm) (though not-really, just remove the `tqdm` command and it should all work fine)
 
 =================================================
 
