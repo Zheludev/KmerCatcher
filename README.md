@@ -18,6 +18,8 @@ Illumina sequencing adapters can find their way into sequencing data and aren't 
 
 `KmerCatcher` can be used to identify sequences devoid of Illumina adapters by using the provided `illumina_adapters.fa` as the "database" file.
 
+`illumina_adapters.fa` was manually composed first by AZF using [these sequences](https://wikis.utexas.edu/pages/viewpage.action?pageId=28165137) and then I added all the sequences I could find [here](https://support-docs.illumina.com/SHARE/AdapterSeq/Content/SHARE/AdapterSeq/AdapterSequencesIntro.htm)
+
 e.g.:
 ```
 python KmerCatcher.py -k_len 12 -db illumina_adapters.fa -i query.fa -o out.fa -debug 1
