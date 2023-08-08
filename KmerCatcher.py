@@ -68,7 +68,7 @@ def main(k_len, database_file, sequence_file, output_file, debug):
     ##
     
     ## need to build a dictionary of the database's k-mers to iterate over
-        ## need a dummy placeholder value of '0'
+        ## need a dummy placeholder value of '1'
     
     database_dict = {}
     for line in database_list:
